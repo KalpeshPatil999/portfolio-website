@@ -1,5 +1,5 @@
 import React from "react";
-import avatarImg from "../../assets/7358602-removebg-preview.png";
+import avatarImg from "../../assets/main-img.png";
 import TextChange from "../TextChange";
 
 const Home = () => {
@@ -10,15 +10,24 @@ const Home = () => {
           <TextChange />
         </h1>
         <p className="text-sm md:text-2xl tracking-tight ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
-          doloremque?
+          <br />
+        Second-year Computer Engineering student with a strong foundation in Python programming and data structures. A passionate speaker, creative writer, and active debater with excellent communication and critical thinking skills.
         </p>
-        <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-          Contact Me
-        </button>
+        <a href="/cv.pdf" download>
+  <button className="mt-5 md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
+    Contact Me
+  </button>
+</a>
+
       </div>
       <div>
-        <img className="" src={avatarImg} alt="" />
+      <img 
+  className="" 
+  src={avatarImg} 
+  alt="" 
+  style={{ width: "400px", height: "auto" }} 
+/>
+
       </div>
     </div>
   );

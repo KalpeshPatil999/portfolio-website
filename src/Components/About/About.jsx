@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../../assets/7358653-removebg-preview.png";
+import AboutImg from "../../assets/main-img.png";
 import { IoArrowForward } from "react-icons/io5";
 const About = () => {
   return (
@@ -34,11 +34,10 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Database developer
+                Speaker & Debater
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores
+                I am an enthusiastic and articulate public speaker and competitive debater, passionate about expressing ideas with clarity, confidence, and persuasion
                 </p>
               </span>
             </div>
@@ -47,12 +46,10 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Backend developer
+                  Japanese
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis
+                Currently learning Japanese (JLPT N5 level) to enhance cross-cultural communication and explore global opportunities.
                 </p>
               </span>
             </div>
